@@ -1,0 +1,98 @@
+.type-587 {
+  width: 100%;
+  height: auto;
+}
+.type-587 .content {
+  text-align: center;
+}
+.type-587 .content .title .lms_heading_title {
+  border-bottom: 1px solid #9ea6b0;
+  position: relative;
+  font-weight: 500;
+  width: 200px;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%,0%);
+  padding-bottom: 20px;
+}
+.type-587 .content .title .lms_heading_title:after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  margin: -10px 0 0 -5px;
+  left: 50%;
+  width: 10px;
+  height: 20px;
+  background: #fff;
+  border-left: 1px solid #9ea6b0;
+  border-right: 1px solid #9ea6b0;
+  transform: rotate(25deg);
+}
+.type-587 .content .image {
+  margin-top: 50px;
+  width: 100%;
+  height: 400px;
+  background: url(../images/testimonials_bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  position: relative;
+}
+.type-587 .content .image .context {
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.7);
+}
+.type-587 .content .image .context .swiper-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+}
+.type-587 .content .image .context .swiper-container .swiper-wrapper {
+  display: flex;
+}
+.type-587 .content .image .context .swiper-container .swiper-wrapper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  display: inline-block;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.type-587 .content .image .context .swiper-container .swiper-wrapper .swiper-slide .lms_testimonial_quote {
+  font-size: 60px;
+  font-style: italic;
+}
+.type-587 .content .image .context .swiper-container .swiper-wrapper .swiper-slide .lms_testimonials_txt {
+  width: 400px;
+  font-size: 20px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 20px;
+}
+.type-587 .content .image .context .swiper-container .swiper-wrapper .swiper-slide img {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+}
+.type-587 .content .image .context .swiper-container .swiper-wrapper .swiper-slide h4 {
+  color: #ff9933;
+}
+@media (max-width: 768px) {
+  .type-587 .content .image .context .swiper-container .swiper-wrapper .swiper-slide {
+    font-size: 17px;
+  }
+  .type-587 .content .image .context .swiper-container .swiper-wrapper .swiper-slide .lms_testimonial_quote {
+    font-size: 50px;
+  }
+  .type-587 .content .image .context .swiper-container .swiper-wrapper .swiper-slide .lms_testimonials_txt {
+    font-size: 17px;
+  }
+}
